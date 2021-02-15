@@ -263,7 +263,7 @@ jobs:
       run: dotnet tool install -g dotnet-nlu --version 0.8.0
 
     - name: Add dotnet Tools to Path
-      run: echo "::add-path::$HOME/.dotnet/tools"
+      run: echo "$HOME/.dotnet/tools" >> $GITHUB_PATH
 
     - name: Test Luis model with quality verification tests
       run: dotnet nlu test -s luisV3 -u $QUALITY_TEST_FILE -o F-results.json
