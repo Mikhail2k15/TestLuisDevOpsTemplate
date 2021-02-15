@@ -61,7 +61,7 @@
 - please make plans for {@vacation-request=traveling {@date-range=from december 20 until january 2}}
 - requesting a {@vacation-request=vacation starting on {@start-date=12 of january} and ending {@end-date=12 of february}}
 - requesting {@vacation-request=vacations {@date-range=from july 20 to august 15}}
-- yeah i'd like to book a {@vacation-request=vacation {@start-date=starting april 10th} lasting for {@days-duration={@days-number=10} days}} pleasef
+- yeah i'd like to book a {@vacation-request=vacation {@start-date=starting april 10th} lasting for {@days-duration={@days-number=10} days}} plfeasef
 
 
 > # Entity definitions
